@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Разработка распределённой системы представления информации для образовательной организации</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/material/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list" style="--color-key:#6699CC">
+
+    <header class="caption" style="--color-key:#6699CC">
+        <h1 style="font-family: 'PT-Astra-Sans-Bold';">Разработка распределённой системы представления информации для образовательной организации</h1>
+        <p>Исайчев Данила Олегович</p>
+    </header>
+
+    <style>
+        @font-face {
+            font-family: "PT-Astra-Sans";
+            src: url(./PT-Astra-Sans/pt-astra-sans_regular.ttf) format("truetype");
+        }
+        @font-face {
+            font-family: "PT-Astra-Sans-Bold";
+            src: url(./PT-Astra-Sans/pt-astra-sans_bold.ttf) format("truetype");
+        }
+        * {
+            font-family: "PT-Astra-Sans";
+        }
+
+        h2 {
+            font-family: "PT-Astra-Sans-Bold";
+            margin: 30px 0 0 0;
+        }
+
+        b {
+            font-family: "PT-Astra-Sans-Bold";
+        }
+    </style>
+
+    <section class="slide" id="cover">
+        <div id="university">
+            <p>Российский государственный педагогический университет им. А. И. Герцена</p>
+            <p>Институт информационных технологий и технологического образования</p>
+        </div>
+
+        <h2>Разработка распределённой системы представления информации для образовательной организации</h2>
+
+        <div id="authors">
+            <div id="author">
+                <p><b>Выполнил:</b> студент 4 курса</p>
+                <p>Исайчев Данила Олегович</p>
+            </div>
+
+            <div id="author">
+                <p><b>Руководитель:</b> старший преподаватель</p>
+                <p>Аксютин Павел Александрович</p>
+            </div>
+        </div>
+
+        <style>
+            #university {
+                text-align: left;
+                font-size: 24px;
+            }
+
+            #university > p{
+                margin: 15px 0 0;
+            }
+
+            #university > p:first-child {
+                margin: 0;
+            }
+
+            #authors {
+                margin: 50px 0 0 0;
+                text-align: left;
+            }
+
+            #author {
+                margin: 20px 0 0 0;
+            }
+
+            #author:first-child {
+                margin: 0;
+            }
+
+            #author > p {
+                margin: 0;
+                text-align: left;
+                font-size: 18px;
+                line-height: 1.25;
+            }
+
+            #cover {
+                padding: 5% 10%;
+            }
+        </style>
+    </section>
+
+    <section class="slide" style="padding: 0">
+        <img src="./img/hall.png" width="100%" height="100%">
+    </section>
+
+    <section class="slide">
+        <div class="relevance" style="margin:10% 5% 10% 5%">
+            <p>
+                <b>Актуальность</b> работы связана с потребностью в автоматизации процессов представления информации.
+            </p>
+        </div>
+        <style>
+            .relevance > p {
+                font-size: 48px;
+                line-height: 1.25;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <div>
+            <h2>Преимущества применения календарей:</h2>
+            <ol>
+                <li style="font-size: 36px; line-height: 1.5;">
+                    Персонифицированное расписание для учителей и классов.
+                </li>
+                <li style="font-size: 36px; line-height: 1.5;">
+                    Поддержка уведомлений на уровне системы.
+                </li>
+                <li style="font-size: 36px; line-height: 1.5;">
+                    Имплементация открыторого стандарта iCalendar.
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="slide" style="padding: 0;">
+        <div style="display: flex;">
+            <img src="./img/ical.png" style="height:100%;"></img>
+            <img src="./img/screenshot.png" style="width:50%;"></img>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div id="subject-and-goal">
+            <p id="subject"><b>Предмет исследования</b> – распределённая система представления информации для образовательной организации</p>
+            <p id="goal"><b>Цель</b> – разработка распределённой системы, которая позволит автоматизировать представление организационной информации в образовательном учреждении.</p>
+        </div>
+
+        <style>
+            #subject-and-goal > p {
+                font-size: 36px;
+                line-height: 1.25;
+            }
+            #goal {
+                margin-top: 10%;
+            }
+        </style>
+    </section>
+
+    <section class="slide" style="padding: 8% 10%;">
+        <ol id="tasks">
+            <h2>Задачи</h2>
+            <li>Проанализировать требования заказчика и существующие решения, на основе которых спроектировать модель базы данных.</li>
+            <li>Разработать модель распределённой системы.</li>
+            <li>Реализовать серверную и клиентскую составляющие веб-приложения.</li>
+            <li>Осуществить контейнеризацию приложения с помощью Docker.</li>
+            <li>Составить сопроводительную документацию: руководство для администратора и пользователей.</li>
+            <li>Провести внедрение и апробацию разработанной системы в образовательной организации. </li>
+        </ol>
+
+        <style>
+
+            #tasks > li {
+                font-size: 22px;
+                line-height: 1.75;
+            }
+
+        </style>
+    </section>
+
+    <section class="slide" style="padding: 0;">
+        <img src="./img/result.gif" width="100%" height="100%" margin="0">
+    </section>
+
+    <section class="slide" style="padding: 0%;">
+        <img src="./img/scheme.svg" margin="0">
+    </section>
+
+    <section class="slide" style="padding: 0%;">
+        <img src="./img/tools.svg" margin="0">
+    </section>
+
+    <section class="slide" style="background-color: #121212; display:flex">
+        <div>
+            <h2 style="color: rgb(205, 205, 205);">Простота и скорость добавления</h2>
+            <div style="display: flex; justify-content: space-between;">
+                <img src="./img/add.gif" width="32%" style="border-radius: 10% 10% 0 0;">
+                <img src="./img/add-qr.gif" width="32%" style="border-radius: 10% 10% 0 0;">
+            </div>
+        </div>
+    </section>
+
+    <section class="slide" style="background-color: #121212;">
+        <div style="display: flex;">
+            <h2 style="color: rgb(205, 205, 205);">Всегда на виду</h2>
+            <img src="./img/screenshot.png" width="33%" style="margin: auto;">
+        </div>
+    </section>
+
+    <section class="slide" style="background-color: #121212; padding-right: 5%">
+        <div style="display: flex;">
+            <img src="./img/changed.gif" width="50%">
+            <h2 style="color: rgb(205, 205, 205); margin-left: 5%;">Получайте уведомления об изменениях и об уроках</h2>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div id="results">
+            <h2>Результат</h2>
+            <p>Распределённая система представления информации была разработана</p>
+            <p>Внедрение было проведено в ГБОУ СОШ №80 Петроградского района</p>
+        </div>
+
+        <style>
+            #results > p {
+                font-size: 36px;
+                line-height: 1.25;
+            }
+        </style>
+    </section>
+
+    <section class="slide">
+        <div id="perspectives">
+            <h2>Перспективы развития</h2>
+            <p>Генерация изображений с расписаниями для телевизоров</p>
+            <p>Подключение Telegram-каналов для распространения расписаний</p>
+            <p>Предоставление API для связи с другими проектами</p>
+        </div>
+
+        <style>
+            #perspectives > p {
+                font-size: 36px;
+                line-height: 1.25;
+            }
+        </style>
+    </section>
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.js"></script>
+    <!-- Copyright © 2023 Yours Truly, Famous Inc. -->
+
+</body>
+</html>
